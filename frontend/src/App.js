@@ -1,20 +1,12 @@
-import React from 'react'
+import "./App.css";
+import Router from "./Router/Router";
 
-export const App = () => {
-
-  useEffect(() => {
-    const currentThemeColor = localStorage.getItem('colorMode');
-
-    const currentThemeMode = localStorage.getItem('themeMode');
-
-    if (currentThemeColor && currentThemeMode) {
-      setCurrentColor(currentThemeColor);
-      setCurrentMode(currentThemeMode);
-
-    }
-  }, []);
-
+function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      <Router />
+    </div>
+  );
 }
+
+export default App;
