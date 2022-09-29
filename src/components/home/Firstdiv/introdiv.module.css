@@ -1,0 +1,18 @@
+
+
+@media  (max-width: 850px){
+   
+    .outerbox{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    
+    .imgggg{
+        width:100%;
+    }
+    .outerrrr{
+       margin-bottom: -200px;
+    }
+    
+}

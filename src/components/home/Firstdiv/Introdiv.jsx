@@ -1,19 +1,23 @@
 import React from 'react'
+
+import styles from './introdiv.module.css'
+import { Link } from 'react-router-dom'
 import {
-    Container,
-    Box,
-    Flex,
-    Heading,
-    Button,
-    Text,
-    Hstack,
-    DividerContainer
-  } from "@chakra-ui/react";
-  import { NavLink } from "react-router-dom";
-const Homepage = () => {
+  Container,
+  Box,
+  Flex,
+  Heading,
+  Button,
+  Text,
+  Hstack,
+  DividerContainer
+} from "@chakra-ui/react";
+import { NavLink } from "react-router-dom";
+
+export const Introdiv = () => {
   return (
-    <div>
-       <Container bgColor="#fff8f1" maxW="100%" padding="2% 1% 2% 5%">
+    
+<Container bgColor="#fff8f1" maxW="100%" padding="2% 1% 2% 5%" className={styles.outerrrr}>
         {/* ----------------------------------------------- */}
         <Box>
           <Flex
@@ -24,8 +28,9 @@ const Homepage = () => {
               md: "column",
               sm: "column",
             }}
+          
           >
-            <Box w="49%" padding="0% 2% 1% 0%" textAlign="left">
+            <Box w="49%" padding="0% 2% 1% 0%" textAlign="left"className={styles.outerbox}>
               <Box>
                 <Box w="80%">
                     <Box color={"#fa5d00" }>SEE WHY 70,000+ COMPANIES TRACK TIME WITH HARVEST</Box>
@@ -156,7 +161,7 @@ const Homepage = () => {
               </Flex>
             </Box>
 
-            <Box w="60%" marginRight="-1%" height="600px" paddingTop="5%">
+            <Box w="60%" marginRight="-1%" height="600px" paddingTop="5%" className={styles.imgggg}>
               <img
                 width="100%"
                 height="100%"
@@ -167,8 +172,6 @@ const Homepage = () => {
           </Flex>
         </Box>
     </Container>
-    </div>
+
   )
 }
-
-export default Homepage
