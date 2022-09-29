@@ -60,6 +60,15 @@ userRouter.post("/login",async(req,res)=>{
         res.status(404).send("no user found")
     }   
 })
+userRouter.put("/edit/:email",async(req,res)=>{
+const {email}= req.params;
+const user= await UserModel.updateOne({email}, {$set:req.body});
+if(user){
+    res.status(201).send("success");
+}else{
+    res.status(400).send("something went wrong")
+}
+})
 
 
 
