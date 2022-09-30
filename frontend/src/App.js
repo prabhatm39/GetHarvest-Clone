@@ -1,12 +1,11 @@
-import "./App.css";
-import Router from "./Router/Router";
-
+import { AllRoutes } from './allRoutes/AllRoutes';
+import './App.css';
+import { Expenses } from './Pages/expenses/Expenses';
 function App() {
   return (
-    <div>
-      <Router />
+    <div className="App">
+      <AllRoutes/> 
     </div>
   );
 }
-
 export default App;
