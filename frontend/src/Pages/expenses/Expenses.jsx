@@ -7,18 +7,21 @@ import { getExpense } from "../../store/expenseReducer/action";
 import { Box, Button, Text } from "@chakra-ui/react";
 
 export const Expenses = () => {
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
   const [add, setadd] = useState(false);
   const token = localStorage.getItem("getharvesttoken");
-  const [userdata, setUserdata] = useState({
-    clientName: "",
-    address: "",
-    pCurrency: ""
+  const [expensesdata, setExpensesdata] = useState({
+    date:"",
+    project:"",
+    category:"",
+    notes:"",
+    Amount:0  
   });
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setUserdata({
-      ...userdata,
+    setExpensesdata({
+      ...expensesdata,
       [name]: value
     });
   };
@@ -26,14 +29,14 @@ export const Expenses = () => {
 
   const handleSubmit = () => {
     axios
-      .post("http://localhost:8080/client/create", userdata, {
+      .post("http://localhost:8080/expenses/create", expensesdata, {
         headers: {
           Authorization: `Bearer ${token}`
         }
       })
       .then((res) => {
         console.log(res);
-        navigate("/manage");
+        //navigate("/");
       })
       .catch((err) => {
         console.log(err);
@@ -56,8 +59,8 @@ export const Expenses = () => {
 
         {add && <AddExpense />}
 
-        {ExpensesData &&
-          ExpensesData.map((ele) => <IndExp key={ele.id} data={ele} />)}
+        {expensesdata &&
+          <IndExp data={expensesdata} />}
       </Box>
     </Box>
   );

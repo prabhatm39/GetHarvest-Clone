@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose")
 
 const expensesSchema = mongoose.Schema({
     date:String,
@@ -6,9 +6,9 @@ const expensesSchema = mongoose.Schema({
     category:String,
     notes:String,
     Amount:Number,
-    userId:String
-});
+    userId:String  
+})
 
-const ExpensesModel = mongoose.model("expenses",expensesSchema);
+const ExpensesModel = mongoose.model("expense", expensesSchema)
 
 module.exports = {ExpensesModel}

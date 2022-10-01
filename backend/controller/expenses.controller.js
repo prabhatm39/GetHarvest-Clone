@@ -1,31 +1,45 @@
 const {Router} = require("express");
-const {ExpensesModel} = require("../controller/expenses.controller")
-const expensesRouter = Router();
+const { ExpensesModel } = require("../models/expenses.model");
+//const {ExpensesModel} = require("../controller/expenses.controller")
 
-expensesRouter.get("/", async(req,res)=>{
-    const {userID}= req.body;
-    const expenses= await ExpensesModel.find({userId:userID});
+const expensesRouter = Router()
+
+expensesRouter.get("/", async (req,res)=>{
+    const {userID} = req.body;
+     const expenses= await ExpensesModel.find({userId:userID});
     res.send(expenses)
 })
+
 expensesRouter.get("/:expensesid",async(req,res)=>{
     const {userID}= req.body;
     const {expensesid} = req.params;
+    
     const expenses = await ExpensesModel.find({_id:expensesid, userId:userID});
-    res.send(expenses)
+    if(expenses){
+        res.status(201).send(expenses)
+    }else{
+        res.status(404).send("Nahi hai")
+    }
+   
 })  
 
 expensesRouter.get("/dates/:date",async(req,res)=>{
     const {userID}= req.body;
-    const date= req.params;
-    const expenses= await ExpensesModel.find({userId:userID , date:date});
-    res.send(expenses)
+    const date = req.params;
+    const expenses = await ExpensesModel.find({userId:userID , date:date});
+    if(expenses){
+        res.status(201).send(expenses)
+    }else{
+        res.status(404).send("Nahi hai")
+    }
+
 })
 
 expensesRouter.post("/create",async(req,res)=>{
-    //const {userID}= req.body;
+    const {userID}= req.body;
     const { date, project, category,notes, Amount } = req.body;
-    const newexpenses= new ExpensesModel({date, project, category,notes, Amount, userId:userID})
-    await newexpenses.save();
+    const pleasehoja=  new ExpensesModel({date, project, category,notes, Amount, userId:userID})
+    await pleasehoja.save()
     res.send("expenses created successfully")
 }) 
 
@@ -51,4 +65,4 @@ expensesRouter.delete("/delete/:expensesid",async(req,res)=>{
     }
 });
 
-module.exports= {expensesRouter}
+module.exports = { expensesRouter }
