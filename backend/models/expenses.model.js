@@ -5,7 +5,7 @@ const expensesSchema = mongoose.Schema({
     project:String,
     category:String,
     notes:String,
-    Amount:Number,
+    amount:Number,
     userId:String  
 })
 

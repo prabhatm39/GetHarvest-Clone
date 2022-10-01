@@ -1,7 +1,7 @@
 import { Box, Button, Flex, Text } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { deleteExpense, getExpense } from '../../store/expenseReducer/action'
+import { deleteExpense, getExpense } from '../../Redux/expenseReducer/action'
 import { EditExpense } from './EditExpense'
 
 const IndExp = ({data}) => {    

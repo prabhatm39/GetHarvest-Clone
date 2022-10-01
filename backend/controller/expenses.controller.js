@@ -37,8 +37,8 @@ expensesRouter.get("/dates/:date",async(req,res)=>{
 
 expensesRouter.post("/create",async(req,res)=>{
     const {userID}= req.body;
-    const { date, project, category,notes, Amount } = req.body;
-    const pleasehoja=  new ExpensesModel({date, project, category,notes, Amount, userId:userID})
+    const { date, project, category,notes, amount } = req.body;
+    const pleasehoja=  new ExpensesModel({date, project, category,notes, amount, userId:userID})
     await pleasehoja.save()
     res.send("expenses created successfully")
 }) 

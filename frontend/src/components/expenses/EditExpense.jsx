@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { addExpense, editExpense, getExpense } from '../../store/expenseReducer/action'
+import { addExpense, editExpense, getExpense } from '../../Redux/expenseReducer/action'
  import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { Box, Button,  Checkbox, Flex, Input, Text } from '@chakra-ui/react'
