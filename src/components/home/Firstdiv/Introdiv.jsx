@@ -20,8 +20,10 @@ export const Introdiv = () => {
 <Container bgColor="#fff8f1" maxW="100%" padding="2% 1% 2% 5%" className={styles.outerrrr}>
         {/* ----------------------------------------------- */}
         <Box>
-          <Flex
+          <Box
+          className={styles.outer}
             justify="space-between"
+            display={"flex"}
             direction={{
               base: "row",
               lg: "row",
@@ -30,10 +32,10 @@ export const Introdiv = () => {
             }}
           
           >
-            <Box w="49%" padding="0% 2% 1% 0%" textAlign="left"className={styles.outerbox}>
-              <Box>
-                <Box w="80%">
-                    <Box color={"#fa5d00" }>SEE WHY 70,000+ COMPANIES TRACK TIME WITH HARVEST</Box>
+            <Box  className={styles.outerbox}>
+              <Box className={styles.outerbox2}>
+                <Box  className={styles.outerbox3}>
+                    <Box className={styles.outerbox4}  >SEE WHY 70,000+ COMPANIES TRACK TIME WITH HARVEST</Box>
                   
                 </Box>
               </Box>
@@ -41,11 +43,8 @@ export const Introdiv = () => {
               <br />
               <Box w="110%">
                 <Heading
-                  fontWeight="simple"
-                  size="3xl"
-                  color="#1d1e1c"
-                  textAlign="left"
-                  fontFamily="Georgia, MuotoWeb,sans-serif, Monarch"
+                  
+                  className={styles.Finally}
                 >
                   Finally, time tracking your team actually wants to use
                 </Heading>
@@ -161,15 +160,15 @@ export const Introdiv = () => {
               </Flex>
             </Box>
 
-            <Box w="60%" marginRight="-1%" height="600px" paddingTop="5%" className={styles.imgggg}>
+            <Box className={styles.imgggg}>
               <img
-                width="100%"
-                height="100%"
+              className={styles.imgggg2}
+                
                 src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/Harvest/1001-Harvest-Home-SPZ-Hero/desktop-hero-img.png"
                 alt="laptop"
               />
             </Box>
-          </Flex>
+          </Box>
         </Box>
     </Container>
 

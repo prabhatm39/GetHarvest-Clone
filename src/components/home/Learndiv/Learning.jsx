@@ -20,7 +20,7 @@ const Learning = () => {
       <Text fontSize="20px" fontWeight="700" color="#fa5d00" fontFamily="MuotoWeb - 700">LEARNING RESOURCES</Text>
        <Text className={styles.learning_heading} lineHeight="48px">Supporting your team along the way</Text>
        </Box>
-      <Box width="40rem">
+      <Box className={styles.heading}>
         {LearnObj.map((el)=>(
           <Box className={styles.learningdiv}>
           <Flex className={styles.learning_box} >

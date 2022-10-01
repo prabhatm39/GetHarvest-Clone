@@ -6,7 +6,9 @@
        margin-top:2rem;
 }
 
-
+.heading{
+    width:40rem;
+}
 .learning_heading{
     font-family:MuotoWeb - 400;
      color:#1d1e1c;
@@ -71,6 +73,40 @@ cursor: pointer;
 }
 
 @media   (max-width: 850px){
+    .heading{
+        width:100%;
+    }
+    .bgimg{
+        width: 100%;
+    }
+    .border{
+        width: 100%;
+    }
+    .outerflex{
+        width: 100%;
+        flex-direction: column;
+        gap: 1rem;
+       
+    }
+    .learning_box{
+        width: 95%;
+    }
+    .learning_heading{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .learning_box_img{
+        display: none;
+    }
+    .headingdiv{
+        width: 100%;
+    }
+}
+
+@media   (max-width: 400px){
+    .bgimg{
+        width: 100%;
+    }
     .border{
         width: 100%;
     }

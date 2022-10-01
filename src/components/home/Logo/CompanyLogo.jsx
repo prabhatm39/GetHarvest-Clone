@@ -25,7 +25,7 @@ const Company = ({ opacity }) => {
           marginLeft="6px"
         ></Box>
       </Flex>
-      <Flex gap="3.5rem" marginTop="2rem" justifyContent="space-between">
+      <Flex gap="2%" marginTop="2rem" justifyContent="space-between" className={styles.img22}>
        {CompanyLogo.map((el)=>
        (
         <Image className={styles.img}

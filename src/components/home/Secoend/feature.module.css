@@ -82,10 +82,12 @@
     .feature_heading{
         font-size: 36px;
         line-height: 43px;
+        width: 95%;
     }
 
     .feature_heading2{
         font-size: 24px;
+        width: 95%;
     }
     
     .flexbox{
