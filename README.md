@@ -66,4 +66,4 @@ I would say, thank you for reading this here. I hope you will find it helpful. I
 It was not an easy task to implement the new concepts on the first attempt. I would also thank my team members to make this project successful. Feel free to reach out to us for any feedback.
 
 Github Repo Link : https://github.com/prabhatm39/flowery-ear-2957
-Netlify Link : https://verdant-griffin-4c7b5f.netlify.app/
+Netlify Link : https://getharvest-masai-clone.netlify.app/
