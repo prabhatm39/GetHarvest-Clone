@@ -2,8 +2,7 @@
 
 ## Introduction to our project(https://getharvest-masai-clone.netlify.app/):
 
-# Bluemercury had Stock Up On All Your Favorite Brands, Then Try Something New On Us. Shop Cosmetics, Skincare, Wellness and Spa only at bluemercury.com. 
-Store Locator. Shop Online. Gift Cards Available. Highlights: Store Locator Available, Free Consultation Available.
+# Harvest offers time tracking, invoicing, expense tracking, and time-based reporting. Users can send automated payment reminders from the software if clients haven't paid an invoice on time. This is a "less stressful option for managers who hate dunning their customers.
 
 
 # Tech Stacks Used:
