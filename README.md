@@ -1,6 +1,6 @@
 # smooth-dock-1057
 
-Clone of Tripoto
+Clone of GetHarvest.com
 This is a collaborative Project from Masai School in the Construct Week. We are 5 members of the team:
 
 1. Prabhat Mishra : Team Lead
