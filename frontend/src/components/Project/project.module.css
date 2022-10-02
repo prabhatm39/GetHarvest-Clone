@@ -1,0 +1,128 @@
+h1{
+    color: #1D1E1C;
+    padding-left: 3rem;
+}
+
+.pronav{
+    background-color: #EEEEEE;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    
+}
+
+.butbox{
+    padding: 1rem;
+    /* width: 100%; */
+    
+}
+.butbox Button{
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-weight: 700;
+    border-width: 2px;
+}
+.butbox Button:first-child{
+    background-color: #188433;
+    color: white;
+}
+
+.sea{
+    padding: 1rem ;
+   /* border: 1px solid black; */
+}
+.seabo{
+   
+padding: 0.5rem;
+background-color: white;
+  
+}
+
+.seabo Input{
+   height: 0.7rem;
+   width: 15rem; 
+   border: none;
+   
+}
+.seabo Input:focus{
+    width: 25rem;
+    height: 1.5rem;
+    border: none;
+    border-color: white;
+}
+
+.sel{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+select{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 10px;
+    color: #1D1E1C;
+
+}
+.spbo{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    background-color: #EEEEEE;
+    border-top: 1px solid ;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+}
+.cli{
+margin-left: 1rem;
+}
+.bud{
+margin-left: 17rem;
+}
+.spe{
+    margin-left: 8rem;
+}
+.rem{
+    margin-left: 17rem;
+}
+.cos{
+    margin-left: 8rem;
+}
+
+.spboD{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    padding: 1rem;
+   
+    border-top: 1px solid ;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+}
+.cliD{
+margin-left: 1rem;
+}
+.budD{
+margin-left: 17rem;
+}
+.speD{
+    margin-left: 9rem;
+}
+.remD{
+    margin-left: 18rem;
+}
+.cosD{
+    margin-left: 9rem;
+}
+.cosD select{
+    margin-left: 1rem;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 10px;
+    color: #1D1E1C;
+}

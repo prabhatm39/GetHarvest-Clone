@@ -1,0 +1,70 @@
+.addclientmaindiv {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+}
+
+.headingp {
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
+}
+
+.clientnamesec {
+  display: flex;
+  gap: 5.6rem;
+
+}
+.clientnamesec > input {
+  width: 80%;
+  height: 30px;
+  border: 1px solid black;
+  /* margin-top: 10px; */
+}
+
+.clientaddrsec {
+  display: flex;
+  gap: 8rem;
+}
+
+.clientaddrsec > input {
+  width: 80%;
+  margin-top: 10px;
+  height: 100px;
+  float: right;
+  border: 1px solid black;
+}
+
+.currencysec {
+  display: flex;
+  gap: 3rem;
+}
+
+.currencysec > select {
+  width: 65%;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.saveclientbtn {
+  width: 100px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 180px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cancelbtn {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+  cursor: pointer;
+}

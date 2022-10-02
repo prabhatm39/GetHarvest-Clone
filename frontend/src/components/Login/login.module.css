@@ -1,0 +1,40 @@
+
+
+.mainlogindiv{
+  width: 40%;
+  height: 300px;
+  border: 1px solid orange;
+  margin: auto;
+}
+
+.mainlogindiv>input{
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+  margin-top: 10px;
+}
+.mainlogindiv>input:nth-child(1){
+  margin-top: 30px;
+}
+.mainlogindiv>button:nth-child(1){
+  width: 80%;
+  height: 40px;
+  background-color: white;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.loginsubmitbtn {
+  width: 80%;
+  height: 45px;
+  border-radius: 10px;
+  background-color: rgb(12, 129, 12);
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 18px;
+}
+

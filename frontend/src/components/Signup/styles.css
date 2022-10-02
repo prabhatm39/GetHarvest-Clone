@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.mainsigndiv {
+  display: flex;
+  gap: 5rem;
+}
+
+.rightsigndiv {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.googlebutton {
+  width: 80%;
+  height: 45px;
+  background-color: white;
+  border: 0.3px solid #a89f9f;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.inputfield {
+  text-align: left;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.inputfield > input {
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 240px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0.3px solid #a89f9f;
+}
+
+.createmyaccount {
+  width: 80%;
+  height: 45px;
+  border-radius: 10px;
+  background-color: rgb(12, 129, 12);
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainsigndiv {
+    display: block;
+    text-align: center;
+  }
+  .mainsigndiv > div > img:nth-child(1) {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mainsigndiv {
+    display: block;
+    text-align: center;
+  }
+  .mainsigndiv > div > img:nth-child(1) {
+    width: 100%;
+  }
+}

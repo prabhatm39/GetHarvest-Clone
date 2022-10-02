@@ -1,0 +1,25 @@
+.lastmain {
+  width: 40%;
+  margin: auto;
+  text-align: left;
+  margin-top: 150px;
+}
+.lastmain > select {
+  width: 90%;
+  height: 40px;
+  border: 1px solid black;
+}
+.lastmain > button {
+  width: 90%;
+  height: 40px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+}
+.lastmain > input {
+  width: 90%;
+  height: 40px;
+}
