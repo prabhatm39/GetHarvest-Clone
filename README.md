@@ -29,7 +29,7 @@ Challenges and hardships we faced:
 During the project, we divided our work among ourselves and we played our part very well.
 
 
-Tech & Tools Used :
+# Tech & Tools Used :
 These are the technologies used in this project which are available below:
 
 Getharvest.com (original website)
@@ -45,7 +45,6 @@ Register and Login :
 On the register page, the user can register by giving common details like First Name, Work Email, Mobile Number, and Password.
 
 If the user is already registered, the user can log in with an Email & Password.
-
 
 signup and login successful user is navigated to the dashboard.
 
