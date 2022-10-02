@@ -1,4 +1,4 @@
-## GETHARVEST.COM Clone
+# GETHARVEST.COM Clone
 # smooth-dock-1057
 
 ## Introduction to our project(https://getharvest-masai-clone.netlify.app/):
