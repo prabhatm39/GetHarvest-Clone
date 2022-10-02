@@ -6,7 +6,7 @@
 
 
 # Tech Stacks Used:
-# ![image](https://user-images.githubusercontent.com/97446828/171631572-e1f0f81e-b026-47bf-a338-41c602dec12f.png)
+# ![image](https://www.freecodecamp.org/news/content/images/size/w2000/2020/03/1_qgxaya.png)
 
 
 # Clone of GETHARVEST.COM
