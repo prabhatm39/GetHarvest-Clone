@@ -52,8 +52,15 @@ On the dashboard, the user can see all the travel destinations .
 
 After proceeding further user is navigated to selected page where he can select his intrest travel destination to get more information of it.
 
-Visit Dubai :
-On the page, you can see all information related to Dubai to make plan your trip.
+Expenses page,
+here you can manage your expenses easily everyday.
+You just have to enter The name of the project 
+you're gonna invest. The notes regarding it
+and the expenditure you wanna alot.
+after that the data will be sent to the server on backend 
+and fetched and will showup below in the following
+lines. If theres any mistake you can delete it and
+add it again.
 
 In this Page you will be able to explore all the tourist destinations in the video formats along with modal videos.
 
