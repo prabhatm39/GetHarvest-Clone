@@ -17,13 +17,15 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { IoMdAdd } from "react-icons/io";
-import { getTimeAPI, postTimeAPI } from "../../Redux/Timer/timer.action";
+import { getTimeAPI, postTimeAPI } from "../../../Redux/Timer/timer.action";
+import { useNavigate } from "react-router-dom";
 
 export const TrackTime = ({dateData}) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [data, setData] = useState({});
   const dispatch = useDispatch();
   const {timeData} = useSelector((state)=> state.time);
+ 
 
   const handleChange = (e) => {
     const {name, value} = e.target;
@@ -39,6 +41,7 @@ export const TrackTime = ({dateData}) => {
     
     dispatch(postTimeAPI({...data, ...dateData}));
     onClose();
+   
   };
 
   useEffect(()=> {
@@ -68,11 +71,13 @@ export const TrackTime = ({dateData}) => {
           <ModalBody className={styles.model}>
             <form onSubmit={onhandleSubmit}>
               <Text>Project / Task</Text>
-              <Select onChange={handleChange} name='client' placeholder="Example Client" mb='2'>
-               
+              <Select onChange={handleChange} name='project' placeholder="Example Client" mb='2'>
+              {timeData.map((el)=> (
+                  <option key={el._id} value={`${el.project}`} >{el.project}</option>
+                ))} 
               </Select>
 
-              <Select onChange={handleChange} name='design' placeholder="Design" mb='2'>               
+              <Select onChange={handleChange} name='purpose' placeholder="Purpose" mb='2'>               
                 <option value="Design">Design</option>
                 <option value="Marketing">Marketing</option>
                 <option value="Programming">Programming</option>                
@@ -81,8 +86,8 @@ export const TrackTime = ({dateData}) => {
               </Select>
 
               <Flex justify="space-between" align='center'>
-                <textarea onChange={handleChange} name="optionaldata" cols="30" rows="3" placeholder="Notes (optional)" ></textarea>
-                <Input onChange={handleChange} name='stoptime' fontSize='4xl' w='25%' h='20' textAlign='right' type="number" placeholder="0:00" />
+                <textarea onChange={handleChange} name="notes" cols="30" rows="3" placeholder="Notes (optional)" ></textarea>
+                <Input onChange={handleChange} name='time' fontSize='4xl' w='25%' h='20' textAlign='right' type="number" placeholder="0:00" />
               </Flex>
            
 

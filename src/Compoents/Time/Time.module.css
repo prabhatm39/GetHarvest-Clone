@@ -21,13 +21,14 @@
 .outputContainer{
     border-top: 1px solid #6d6e6d;
     width: 93%;
-    height: 40vh;    
+    height: 50vh;    
     margin: auto;
     background-color: #efefef;
     overflow: scroll;
 }
 .outputContainer::-webkit-scrollbar {
     display: none;
+  
 }
 
 .outputDiv{

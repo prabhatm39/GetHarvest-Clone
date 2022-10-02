@@ -1,10 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Calendar from 'react-calendar';
-import styles from "./Home.module.css"
+import styles from "./Time.module.css"
 import { getTimeAPI } from "../../Redux/Timer/timer.action";
-import { PaginDate } from "../PaginDate/PaginDate";
-import { TrackTime } from "../TrackTime/TrackTime";
+import { PaginDate } from "./PaginDate/PaginDate";
+import { TrackTime } from "./TrackTime/TrackTime";
+import axios from "axios";
 
 export const Home = () => {
   //------------------------------------date----------------------------
@@ -31,9 +32,37 @@ export const Home = () => {
   const [edit, setedit] = useState(false);
   const timerId = useRef(null);
   const [timer, setTimer] = useState(0);
+  const token= localStorage.getItem("getharvesttoken")
+
+//   const timedata = [
+//     {
+//         "_id": "63368de23c00d66f0b3353f1",
+//         "date": "29/01/2022",
+//         "project": "Project 1",
+//         "purpose": "Efecient",
+//         "notes": "free",
+//         "time": "zaldi",
+//         "userId": "63367340596553524b1f24ab",
+//         "__v": 0
+//     }
+// ]
 
   // console.log(dateData, edit);
-  // console.log(timeData);
+  console.log(timeData)
+  // console.log(timedata);
+
+  const handleDelete=(id)=>{
+    axios.delete(`http://localhost:8080/project/delete/${id}`,{
+      headers:{
+        'authorization':`Bearer ${token}`
+    }
+    })
+    .then((res)=>{
+      console.log(res)
+      dispatch(getTimeAPI())
+    })
+    .catch((err)=>console.log(err))
+  }
 
   const start = () => {
     timerId= setInterval(() => {
@@ -90,7 +119,21 @@ export const Home = () => {
       </div>
 
       <div className={styles.outputContainer}>
-       
+      {timeData.length !== 0 && timeData.map((el)=> (
+          <div key={el._id} className={styles.outputDiv}>
+          <div>
+            <h1>{el.project}</h1>
+            <p>{el.purpose}</p>
+            <p style={{color:"#454545"}}>{el.notes}</p>
+          </div>
+          <div className={styles.outputDiv2}>
+            <h1><span>{timer}</span>: <span>00</span></h1>
+            <div><button className={styles.outputbutton1}>Stop</button></div>
+            <div><button onClick={()=> setedit(!edit)} className={styles.outputbutton2}>Edit</button></div>
+            <div><button onClick={()=> handleDelete(el._id)}>Delete</button></div>
+          </div>
+        </div>
+        ))}      
       </div>
     </div>
   )

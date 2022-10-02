@@ -1,0 +1,200 @@
+
+.helpcontainer {
+    background-image: url("https://19495563.fs1.hubspotusercontent-na1.net/hubfs/19495563/raw_assets/public/harvest-theme/images/auras/aura-spike-bottom-right.jpg");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    background-position: calc(50% + 340px) bottom;
+    background-size: 687px 410px;
+}
+.helpText {
+    margin-left: 10%;
+    width: 60%
+    
+}
+.helpText>h1{
+    font-size: 50px;
+    color: rgb(37, 36, 36) ;
+    font-weight: 300;
+    padding-top: 60px;
+    /* width: 100%; */
+    /* border: 1px solid black; */
+}
+.helpText>p {
+    margin-top: 20px;
+    font-size: 2vw;
+    font-weight: 350;
+    line-height: 6vh;
+  }
+.btnContainer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 10%;
+    /* // border: 1px solid green; */
+}
+.btnContainer>p {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: gray;
+      padding-left: 1.5rem;
+    }
+.btnTry {
+    height: 50px;
+    width: 220px;
+    background-color: #fc6a15;
+    border-radius: 0.95rem;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+    box-shadow: rgba(80, 84, 87, 0.3) 0px 1px 2px 0px,
+    rgba(80, 85, 88, 0.15) 0px 2px 6px 2px;
+ }
+ .btnTry:hover {
+    background-color: #fa782d;
+    transition: 0.5s ease-in-out;
+}
+.line {
+    height: 1px;
+    background-color: #fa5d00;
+    margin-top: 90px;
+  }
+
+
+  
+.mainMidContainer {
+    width: 80%;
+    margin: 50px auto;
+}
+.leftMid>line{
+    height: 1px;
+    background-color: #fa5d00;
+    margin-top: 90px;
+}
+.contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftMid {
+    width: 60%;
+}
+.leftMid>h4 {
+    font-size: 2.75rem;
+    width: 500px;
+    line-height: 50px;
+}
+.leftMid>p {
+    width: 600px;
+    font-size: 1.25rem;
+    font-weight: 450;
+}
+
+
+.point{
+    margin-top: 1rem;
+    padding-left: 35px;
+    background-image: url("//19495563.fs1.hubspotusercontent-na1.net/hubfs/19495563/raw_assets/public/harvest-theme/images/icons/icon-checklist.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-bottom: 5px;
+    font-size: 18px
+}
+.leftMid:nth-child(2) {
+    margin: 25px 0;
+}
+.leftMid>button {
+    margin-top: 25px;
+    height: 50px;
+    width: 220px;
+    background-color: black;
+    border-radius: 0.95rem;
+    color: white;
+    font-size: 1.25rem;
+       
+}
+
+.quoteContainer {
+    text-align: center;
+}
+.quoteContainer>p {
+    width: 80%;
+    margin-top: 25px;
+    font-size: 1.15rem;
+    color: gray;
+}
+
+.linelo{
+
+    margin-top: 70px;
+    height: 1px;
+    width: 100%;
+    background-color: #fa5d00;
+
+}
+
+.startContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 13.5vh 10vw;    
+    background-color: #fff;
+    line-height: 7vh;
+}
+.startDiv{    
+    width: 50%;    
+}
+.startDiv>h1{
+    font-size: 40px;
+}
+.startDiv>p{
+    font-size: 2vw;
+}
+.startDiv>div{
+    display: flex;
+    gap: 2vw;
+}
+.startDiv>div>button{
+    background-color: #fa5d00;
+    font-size: 1.4vw;
+    font-weight: 500;
+    color: #fff;
+    padding: 0 2vw;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1550px){
+    .startDiv>p{
+        margin-top: 5vh;
+    }
+    .startDiv>div{
+        margin-top: 5vh;
+    }    
+}
+
+@media only screen and (max-width: 1250px){
+    .startContainer{
+        flex-direction: column-reverse;
+        gap: 5vh;
+    }
+    .startDiv{    
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 800px){   
+    .startDiv>div{
+        margin-top: 5vh;
+    }
+    .startDiv>div>button{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+  
