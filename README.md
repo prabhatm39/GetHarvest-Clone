@@ -12,16 +12,17 @@
 # Clone of GETHARVEST.COM
 This is a collaborative Project from Masai School in the Construct Week. We are 5 members of the team:
 
-1. Prabhat Mishra : Team Lead
+# 1. Prabhat Mishra : Team Lead
 
-2. Sukanta Dolai
+# 2. Sukanta Dolai
 
-3. Suraj 
+# 3. Suraj 
 
-4. Abhishek Sukumar
+# 4. Abhishek Sukumar
 
 
-Firstly let’s know about Tripto. Tripoto is a travel Booking website, for providing end to end solution to to your travelling by making your bookings handy.
+Firstly let’s know about GETHARVEST. 
+# Harvest helps track your time, manage projects, and invoice clients efficiently.
 
 Challenges and hardships we faced:
 During the project, we divided our work among ourselves and we played our part very well.
@@ -29,11 +30,11 @@ During the project, we divided our work among ourselves and we played our part v
 Tech & Tools Used :
 These are the technologies used in this project which are available below:
 
-Tripoto (Original Website)
+Getharvest.com (original website)
 Chakra UI (UI Styling Library)
 For Frontend : HTML5, CSS3, Javascript, JS6, ReactJS
 For database: Local storage
-For authentication: Masai Api Mocker
+For authentication: HEROKU APP
 Functionalities we made:
 Landing Page :
 The landing page consists of various templates for video making. Users can hover on the given template video and preview it. Users can see filtration according to the type of video template.
