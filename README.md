@@ -1,60 +1,50 @@
 # smooth-dock-1057
 
-Clone of GetHarvest.com
-This is a collaborative Project from Masai School in the Construct Week. We are 5 members of the team:
+##native-fog-9540
 
-1. Prabhat Mishra : Team Lead
 
-2. Harsha C
 
-3. Umesh Yadav
+## Introduction to our project(https://https://bluemercury.netlify.app//):
 
-4. Raviranjan Kumar
+# Bluemercury had Stock Up On All Your Favorite Brands, Then Try Something New On Us. Shop Cosmetics, Skincare, Wellness and Spa only at bluemercury.com. 
+Store Locator. Shop Online. Gift Cards Available. Highlights: Store Locator Available, Free Consultation Available.
 
-4. Pankaj Singh Sajwan
 
-Firstly let’s know about Tripto. Tripoto is a travel Booking website, for providing end to end solution to to your travelling by making your bookings handy.
+# Tech Stacks Used:
+# ![image](https://user-images.githubusercontent.com/97446828/171631572-e1f0f81e-b026-47bf-a338-41c602dec12f.png)
 
-Challenges and hardships we faced:
-During the project, we divided our work among ourselves and we played our part very well.
 
-Tech & Tools Used :
-These are the technologies used in this project which are available below:
+* HomePage:
+* ![image](https://user-images.githubusercontent.com/99958902/180615321-f2963c49-b720-4ac8-bc2b-fa8dd197922f.png)
 
-Tripoto (Original Website)
-Chakra UI (UI Styling Library)
-For Frontend : HTML5, CSS3, Javascript, JS6, ReactJS
-For database: Local storage
-For authentication: Masai Api Mocker
-Functionalities we made:
-Landing Page :
-The landing page consists of various templates for video making. Users can hover on the given template video and preview it. Users can see filtration according to the type of video template.
 
-Register and Login :
-On the register page, the user can register by giving common details like First Name, Work Email, Mobile Number, and Password.
+* New Product Page: 
+* ![image](https://user-images.githubusercontent.com/99958902/180615351-8c814342-e45d-477c-a03a-c2cd7dc854c5.png)
 
-If the user is already registered, the user can log in with an Email & Password.
 
-After signup and login successful user is navigated to the dashboard.
+ 
+* Brand Wise Product Page:
+* ![image](https://user-images.githubusercontent.com/99958902/180615366-b5bcd6d3-435e-4aad-9fda-a766e9a4884d.png)
 
-Dashboard:
-On the dashboard, the user can see all the travel destinations .
 
-After proceeding further user is navigated to selected page where he can select his intrest travel destination to get more information of it.
 
-Visit Dubai :
-On the page, you can see all information related to Dubai to make plan your trip.
+* Product detail Page:
+* ![image](https://user-images.githubusercontent.com/99958902/180615400-eccddbca-3559-46dc-aa29-1bf9320ab4af.png)
 
-In this Page you will be able to explore all the tourist destinations in the video formats along with modal videos.
 
-Notes :
-All the images and links are used from the original website to get a better experience of the website. I have also included the Github link of our project for your reference.
 
-NetlifyLink :
+* Bag Page:
+* ![image](https://user-images.githubusercontent.com/99958902/180615414-b1164c4a-b141-4c25-8dc2-5693135b0eb8.png)
 
-I would say, thank you for reading this here. I hope you will find it helpful. I and my teammates completed this project with full enthusiasm, focus, and hard work. It may have some bugs, but we will try to fix them soon.
 
-It was not an easy task to implement the new concepts on the first attempt. I would also thank my team members to make this project successful. Feel free to reach out to us for any feedback.
 
-Github Repo Link : https://github.com/prabhatm39/flowery-ear-2957
-Netlify Link : https://verdant-griffin-4c7b5f.netlify.app/
+* Signup Page:
+* ![image](https://user-images.githubusercontent.com/99958902/180615435-c5cb1df7-880c-4b39-a567-0cacb3f53595.png)
+
+
+
+* Login Page: 
+* ![image](https://user-images.githubusercontent.com/99958902/180615461-23bfc828-bce6-4eeb-9082-bd61bdf71cb0.png)
+
+*Payment page
+* ![image](https://user-images.githubusercontent.com/99958902/180615492-472183ce-1dab-482c-94e1-dc8bbbae14dc.png)
