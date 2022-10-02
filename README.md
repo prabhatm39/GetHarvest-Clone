@@ -28,8 +28,6 @@ Firstly let’s know about GETHARVEST.
 Challenges and hardships we faced:
 During the project, we divided our work among ourselves and we played our part very well.
 
-# Keep your books up to date
-Automatically copy your Harvest invoices and payments to QuickBooks Online or Xero for simplified accounting.
 
 Tech & Tools Used :
 These are the technologies used in this project which are available below:
@@ -50,6 +48,10 @@ If the user is already registered, the user can log in with an Email & Password.
 
 
 signup and login successful user is navigated to the dashboard.
+
+# Keep your books up to date
+Automatically copy your Harvest invoices and payments to QuickBooks Online or Xero for simplified accounting.
+
 # Invoicing & payments
 Turn your team’s tracked time and expenses into invoices and collect payment quickly with integrated online payments.
 
