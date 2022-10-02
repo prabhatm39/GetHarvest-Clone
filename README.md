@@ -45,15 +45,17 @@ On the register page, the user can register by giving common details like First 
 
 If the user is already registered, the user can log in with an Email & Password.
 
-After signup and login successful user is navigated to the dashboard.
+
+signup and login successful user is navigated to the dashboard.
 
 Dashboard:
 On the dashboard, the user can see all the travel destinations .
 
-After proceeding further user is navigated to selected page where he can select his intrest travel destination to get more information of it.
+# Streamline your invoicing
+Easily create and send accurate invoices using your team’s time and expenses already tracked in Harvest.
 
-Expenses page,
-here you can manage your expenses easily everyday.
+# Expenses page
+Here you can manage your expenses easily everyday.
 You just have to enter The name of the project 
 you're gonna invest. The notes regarding it
 and the expenditure you wanna alot.
