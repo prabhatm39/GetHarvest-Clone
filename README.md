@@ -14,7 +14,7 @@ Store Locator. Shop Online. Gift Cards Available. Highlights: Store Locator Avai
 # ![image](https://user-images.githubusercontent.com/97446828/171631572-e1f0f81e-b026-47bf-a338-41c602dec12f.png)
 
 
-Clone of Tripoto
+#Clone of Tripoto
 This is a collaborative Project from Masai School in the Construct Week. We are 5 members of the team:
 
 1. Prabhat Mishra : Team Lead
