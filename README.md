@@ -75,12 +75,12 @@ In this Page you will be able to explore all the tourist destinations in the vid
 Notes :
 All the images and links are used from the original website to get a better experience of the website. I have also included the Github link of our project for your reference.
 
-# NetlifyLink :
+ NetlifyLink :
 
 I would say, thank you for reading this here. I hope you will find it helpful. I and my teammates completed this project with full enthusiasm, focus, and hard work. It may have some bugs, but we will try to fix them soon.
 
 It was not an easy task to implement the new concepts on the first attempt. I would also thank my team members to make this project successful. Feel free to reach out to us for any feedback.
 
-Github Repo Link : https://github.com/prabhatm39/smooth-dock-1057
+# Github Repo Link : https://github.com/prabhatm39/smooth-dock-1057
 
-Netlify Link : https://getharvest-masai-clone.netlify.app/
+# Netlify Link : https://getharvest-masai-clone.netlify.app/
