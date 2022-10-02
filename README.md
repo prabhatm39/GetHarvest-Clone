@@ -50,6 +50,8 @@ If the user is already registered, the user can log in with an Email & Password.
 
 
 signup and login successful user is navigated to the dashboard.
+# Invoicing & payments
+Turn your team’s tracked time and expenses into invoices and collect payment quickly with integrated online payments.
 
 # Get paid fast with online payments
 PayPal and Stripe integrations let your clients quickly and conveniently pay invoices online.
