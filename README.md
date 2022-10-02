@@ -25,12 +25,11 @@ This is a collaborative Project from Masai School in the Construct Week. We are 
 Firstly let’s know about GETHARVEST. 
 # Harvest helps track your time, manage projects, and invoice clients efficiently.
 
+Challenges and hardships we faced:
+During the project, we divided our work among ourselves and we played our part very well.
 
 # Keep your books up to date
 Automatically copy your Harvest invoices and payments to QuickBooks Online or Xero for simplified accounting.
-
-Challenges and hardships we faced:
-During the project, we divided our work among ourselves and we played our part very well.
 
 Tech & Tools Used :
 These are the technologies used in this project which are available below:
