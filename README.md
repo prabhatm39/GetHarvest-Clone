@@ -4,7 +4,7 @@
 
 
 
-## Introduction to our project(https://https://bluemercury.netlify.app//):
+## Introduction to our project(https://getharvest-masai-clone.netlify.app/):
 
 # Bluemercury had Stock Up On All Your Favorite Brands, Then Try Something New On Us. Shop Cosmetics, Skincare, Wellness and Spa only at bluemercury.com. 
 Store Locator. Shop Online. Gift Cards Available. Highlights: Store Locator Available, Free Consultation Available.
