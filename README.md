@@ -48,8 +48,8 @@ If the user is already registered, the user can log in with an Email & Password.
 
 signup and login successful user is navigated to the dashboard.
 
-Dashboard:
-On the dashboard, the user can see all the travel destinations .
+# Get paid fast with online payments
+PayPal and Stripe integrations let your clients quickly and conveniently pay invoices online.
 
 # Streamline your invoicing
 Easily create and send accurate invoices using your team’s time and expenses already tracked in Harvest.
