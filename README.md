@@ -17,7 +17,7 @@ This is a collaborative Project from Masai School in the Construct Week. We are 
 
 # 2. Sukanta Dolai
 
-# 3. Suraj 
+# 3. Suraj Sangle
 
 # 4. Abhishek Sukumar
 
