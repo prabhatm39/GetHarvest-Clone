@@ -3,7 +3,7 @@
 
 ## Introduction to our project(https://getharvest-masai-clone.netlify.app/):
 
-# Harvest offers time tracking, invoicing, expense tracking, and time-based reporting. Users can send automated payment reminders from the software if clients haven't paid an invoice on time. This is a "less stressful option for managers who hate dunning their customers.
+### Harvest offers time tracking, invoicing, expense tracking, and time-based reporting. Users can send automated payment reminders from the software if clients haven't paid an invoice on time. This is a "less stressful option for managers who hate dunning their customers.
 
 
 # Tech Stacks Used:
