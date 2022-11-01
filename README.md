@@ -83,3 +83,9 @@ It was not an easy task to implement the new concepts on the first attempt. I wo
 # Github Repo Link : https://github.com/prabhatm39/smooth-dock-1057
 
 # Netlify Link : https://getharvest-masai-clone.netlify.app/
+
+
+
+Backend:- npm i express nodemon cors bcrypt mongoose dotenv node-localstorage bcryptjs email-validator jsonwebtoken passport passport-google-oauth2 passport-google-oauth20 uuid
+
+Frontend :- npm i react-router-dom@6 axios redux react-redux redux-thunk npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
